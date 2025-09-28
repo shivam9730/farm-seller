@@ -1,4 +1,4 @@
-package com.choice.reigster.electronic_item.service;
+package com.choice.reigster.farm_item.service;
 
 import com.choice.reigster.shared.utility.RequestDto.RegisterItemRequest;
 import com.choice.reigster.shared.utility.entity.RegisterItem;

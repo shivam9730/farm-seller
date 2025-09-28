@@ -1,6 +1,6 @@
-package com.choice.reigster.electronic_item.controller;
+package com.choice.reigster.farm_item.controller;
 
-import com.choice.reigster.electronic_item.service.RegisterItermServiceImpl;
+import com.choice.reigster.farm_item.service.RegisterItermServiceImpl;
 import com.choice.reigster.shared.utility.APIResponse;
 import com.choice.reigster.shared.utility.RequestDto.RegisterItemRequest;
 import com.choice.reigster.shared.utility.entity.RegisterItem;
