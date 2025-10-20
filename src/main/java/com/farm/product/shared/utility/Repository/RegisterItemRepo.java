@@ -1,6 +1,6 @@
-package com.choice.reigster.shared.utility.Repository;
+package com.farm.product.shared.utility.Repository;
 
-import com.choice.reigster.shared.utility.entity.RegisterItem;
+import com.farm.product.shared.utility.entity.RegisterItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

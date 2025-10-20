@@ -1,8 +1,8 @@
-package com.choice.reigster.shared.utility;
+package com.farm.product.shared.utility;
 
-import com.choice.reigster.shared.utility.GlobalException.ProductNotFoundException;
-import com.choice.reigster.shared.utility.Repository.CodeGroupDescRepository;
-import com.choice.reigster.shared.utility.entity.CodeGroupDesc;
+import com.farm.product.shared.utility.GlobalException.ProductNotFoundException;
+import com.farm.product.shared.utility.Repository.CodeGroupDescRepository;
+import com.farm.product.shared.utility.entity.CodeGroupDesc;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,9 +1,9 @@
-package com.choice.reigster.farm_item.controller;
+package com.farm.product.farm_item.create.controller;
 
-import com.choice.reigster.farm_item.service.RegisterItermServiceImpl;
-import com.choice.reigster.shared.utility.APIResponse;
-import com.choice.reigster.shared.utility.RequestDto.RegisterItemRequest;
-import com.choice.reigster.shared.utility.entity.RegisterItem;
+import com.farm.product.farm_item.create.service.CreateItermServiceImpl;
+import com.farm.product.shared.utility.APIResponse;
+import com.farm.product.shared.utility.RequestDto.RegisterItemRequest;
+import com.farm.product.shared.utility.entity.RegisterItem;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/products")
 @CrossOrigin(origins = "*")
-public class RegisterItemController {
+public class CreateItemController {
     @Autowired
-    private RegisterItermServiceImpl service;
+    private CreateItermServiceImpl service;
 
     // Create new product
     @PostMapping("/seller/create")

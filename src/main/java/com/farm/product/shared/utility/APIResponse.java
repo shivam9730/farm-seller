@@ -1,4 +1,4 @@
-package com.choice.reigster.shared.utility;
+package com.farm.product.shared.utility;
 
 import lombok.Data;
 

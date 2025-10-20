@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com</groupId>
-	<artifactId>choice.reigster</artifactId>
+	<artifactId>reigster</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>choice.reigster</name>
 	<description>Project is for register what farmers grow</description>

@@ -1,4 +1,4 @@
-package com.choice.reigster.shared.utility.entity;
+package com.farm.product.shared.utility.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

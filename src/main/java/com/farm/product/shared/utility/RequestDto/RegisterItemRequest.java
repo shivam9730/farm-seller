@@ -1,4 +1,4 @@
-package com.choice.reigster.shared.utility.RequestDto;
+package com.farm.product.shared.utility.RequestDto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

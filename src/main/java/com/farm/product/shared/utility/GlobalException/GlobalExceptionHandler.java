@@ -1,6 +1,6 @@
-package com.choice.reigster.shared.utility.GlobalException;
+package com.farm.product.shared.utility.GlobalException;
 
-import com.choice.reigster.shared.utility.APIResponse;
+import com.farm.product.shared.utility.APIResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

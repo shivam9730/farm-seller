@@ -1,15 +1,15 @@
-package com.choice.reigster.farm_item.service;
+package com.farm.product.farm_item.create.service;
 
-import com.choice.reigster.shared.utility.GlobalException.ProductAlreadyExistsException;
-import com.choice.reigster.shared.utility.Repository.RegisterItemRepo;
-import com.choice.reigster.shared.utility.RequestDto.RegisterItemRequest;
-import com.choice.reigster.shared.utility.Utility;
-import com.choice.reigster.shared.utility.entity.RegisterItem;
+import com.farm.product.shared.utility.GlobalException.ProductAlreadyExistsException;
+import com.farm.product.shared.utility.Repository.RegisterItemRepo;
+import com.farm.product.shared.utility.RequestDto.RegisterItemRequest;
+import com.farm.product.shared.utility.Utility;
+import com.farm.product.shared.utility.entity.RegisterItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class RegisterItermServiceImpl implements RegisterItemService{
+public class CreateItermServiceImpl implements CreateItemService {
     @Autowired
     private RegisterItemRepo registerItemRepo;
     @Autowired

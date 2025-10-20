@@ -1,4 +1,4 @@
-package com.choice.reigster.shared.utility.GlobalException;
+package com.farm.product.shared.utility.GlobalException;
 
 public class ProductAlreadyExistsException extends RuntimeException{
     public ProductAlreadyExistsException(String message) {
