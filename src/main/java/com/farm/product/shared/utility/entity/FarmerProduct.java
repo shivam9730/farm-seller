@@ -5,15 +5,19 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @Entity
 @Table(name="farmer_product_details")
-public class RegisterItem {
+public class FarmerProduct {
 
     @Column(name = "product_id")
     @Id
@@ -28,7 +32,23 @@ public class RegisterItem {
     @Column(name = "est_qunty", nullable = false)
     private Integer estimatedQuantity;
 
+    @Column(name = "ach_qunt", nullable = false)
+    private Integer achivedQuantity;
+
     @Column(name = "avability_on", nullable = false)
     private LocalDate availabilityOn;
 
+    @Column(name = "product_state")
+    private Integer productState;
+
+    @Column(name = "product_status", length = 40)
+    private String productStatus;
+
+    @CreationTimestamp
+    @Column(name = "created_time_stamp", nullable = false, updatable = false)
+    private LocalDateTime createdTimeStamp;
+
+    @UpdateTimestamp
+    @Column(name = "updated_time_stamp")
+    private LocalDateTime updatedTimeStamp;
 }

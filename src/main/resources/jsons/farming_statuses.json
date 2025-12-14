@@ -1,0 +1,275 @@
+[
+  {
+    "productType": "FRUIT",
+    "phase": "Growth",
+    "status": "TREE_PLANTED",
+    "statusDetails": "Tree planted or grafted in field."
+  },
+  {
+    "productType": "FRUIT",
+    "phase": "Growth",
+    "status": "BLOOMING",
+    "statusDetails": "Flowering stage started."
+  },
+  {
+    "productType": "FRUIT",
+    "phase": "Growth",
+    "status": "FRUIT_SET",
+    "statusDetails": "Fruits forming after pollination."
+  },
+  {
+    "productType": "FRUIT",
+    "phase": "Growth",
+    "status": "FRUIT_DEVELOPMENT",
+    "statusDetails": "Fruits developing in size."
+  },
+  {
+    "productType": "FRUIT",
+    "phase": "Growth",
+    "status": "FRUIT_RIPENING",
+    "statusDetails": "Fruits maturing and ripening."
+  },
+  {
+    "productType": "FRUIT",
+    "phase": "Harvest",
+    "status": "FRUIT_READY_FOR_HARVEST",
+    "statusDetails": "Fruits ready for picking."
+  },
+  {
+    "productType": "FRUIT",
+    "phase": "Harvest",
+    "status": "FRUIT_HARVESTED",
+    "statusDetails": "Fruits harvested successfully."
+  },
+  {
+    "productType": "FRUIT",
+    "phase": "Post-Harvest",
+    "status": "SORTING_AND_GRADING",
+    "statusDetails": "Quality sorting and packaging."
+  },
+  {
+    "productType": "FRUIT",
+    "phase": "Sale",
+    "status": "SOLD_TO_COMPANY",
+    "statusDetails": "Sold to company or exporter."
+  },
+  {
+    "productType": "FRUIT",
+    "phase": "Exceptional",
+    "status": "STORM_DAMAGE",
+    "statusDetails": "Fruits damaged due to storm or heavy wind."
+  },
+  {
+    "productType": "VEGETABLE",
+    "phase": "Growth",
+    "status": "SEEDED",
+    "statusDetails": "Seeds planted in the field."
+  },
+  {
+    "productType": "VEGETABLE",
+    "phase": "Growth",
+    "status": "GERMINATED",
+    "statusDetails": "Sprouted and emerging from soil."
+  },
+  {
+    "productType": "VEGETABLE",
+    "phase": "Growth",
+    "status": "VEGETATIVE_GROWTH",
+    "statusDetails": "Developing leaves and stems."
+  },
+  {
+    "productType": "VEGETABLE",
+    "phase": "Growth",
+    "status": "FLOWERING",
+    "statusDetails": "Flowering before fruit formation."
+  },
+  {
+    "productType": "VEGETABLE",
+    "phase": "Growth",
+    "status": "FRUIT_FORMATION",
+    "statusDetails": "Vegetable forming (e.g., tomato, beans)."
+  },
+  {
+    "productType": "VEGETABLE",
+    "phase": "Harvest",
+    "status": "READY_FOR_HARVEST",
+    "statusDetails": "Crop reached maturity."
+  },
+  {
+    "productType": "VEGETABLE",
+    "phase": "Harvest",
+    "status": "HARVESTED",
+    "statusDetails": "Vegetables harvested successfully."
+  },
+  {
+    "productType": "VEGETABLE",
+    "phase": "Post-Harvest",
+    "status": "WASHING_AND_PACKING",
+    "statusDetails": "Washing and packaging vegetables."
+  },
+  {
+    "productType": "VEGETABLE",
+    "phase": "Sale",
+    "status": "SOLD_IN_MARKET",
+    "statusDetails": "Sold in local or wholesale market."
+  },
+  {
+    "productType": "VEGETABLE",
+    "phase": "Exceptional",
+    "status": "DROUGHT_DAMAGE",
+    "statusDetails": "Crop failed due to drought."
+  },
+  {
+    "productType": "GRAIN",
+    "phase": "Cultivation",
+    "status": "SEEDED",
+    "statusDetails": "Seeds sown in field."
+  },
+  {
+    "productType": "GRAIN",
+    "phase": "Cultivation",
+    "status": "TILLERING_STAGE",
+    "statusDetails": "New shoots forming."
+  },
+  {
+    "productType": "GRAIN",
+    "phase": "Cultivation",
+    "status": "GRAIN_FILLING",
+    "statusDetails": "Grains developing inside pods."
+  },
+  {
+    "productType": "GRAIN",
+    "phase": "Harvest",
+    "status": "HARVESTED",
+    "statusDetails": "Grains harvested successfully."
+  },
+  {
+    "productType": "GRAIN",
+    "phase": "Post-Harvest",
+    "status": "DRYING_AND_CLEANING",
+    "statusDetails": "Drying and cleaning grains."
+  },
+  {
+    "productType": "GRAIN",
+    "phase": "Post-Harvest",
+    "status": "STORED_IN_SILO",
+    "statusDetails": "Stored in silos for sale."
+  },
+  {
+    "productType": "GRAIN",
+    "phase": "Sale",
+    "status": "SOLD_TO_MILL",
+    "statusDetails": "Sold to mill for processing."
+  },
+  {
+    "productType": "GRAIN",
+    "phase": "Exceptional",
+    "status": "LOCUST_ATTACK",
+    "statusDetails": "Destroyed by locusts."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "LIVESTOCK",
+    "phase": "Breeding",
+    "status": "ANIMAL_PURCHASED",
+    "statusDetails": "Animal purchased for rearing."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "LIVESTOCK",
+    "phase": "Breeding",
+    "status": "BREEDING_STARTED",
+    "statusDetails": "Breeding or insemination initiated."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "LIVESTOCK",
+    "phase": "Growth",
+    "status": "GROWING_PHASE",
+    "statusDetails": "Animals growing and healthy."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "LIVESTOCK",
+    "phase": "Production",
+    "status": "MILK_PRODUCTION",
+    "statusDetails": "Milk production active."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "LIVESTOCK",
+    "phase": "Sale",
+    "status": "SOLD_TO_COMPANY",
+    "statusDetails": "Sold to processing company."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "LIVESTOCK",
+    "phase": "Exceptional",
+    "status": "DISEASE_OUTBREAK",
+    "statusDetails": "Lost due to infection or epidemic."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "POULTRY",
+    "phase": "Breeding",
+    "status": "CHICKS_HATCHED",
+    "statusDetails": "Chicks hatched successfully."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "POULTRY",
+    "phase": "Growth",
+    "status": "VACCINATED",
+    "statusDetails": "Vaccinated for health protection."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "POULTRY",
+    "phase": "Production",
+    "status": "EGG_PRODUCTION",
+    "statusDetails": "Laying eggs regularly."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "POULTRY",
+    "phase": "Sale",
+    "status": "SOLD_IN_MARKET",
+    "statusDetails": "Sold in poultry market."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "POULTRY",
+    "phase": "Exceptional",
+    "status": "ACCIDENTAL_DEATH",
+    "statusDetails": "Lost due to mishap or disease."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "FISHERY",
+    "phase": "Breeding",
+    "status": "FISH_SEED_ADDED",
+    "statusDetails": "Fish seed added to pond."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "FISHERY",
+    "phase": "Growth",
+    "status": "GROWING_PHASE",
+    "statusDetails": "Fish growing in pond."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "FISHERY",
+    "phase": "Harvest",
+    "status": "FISH_HARVESTED",
+    "statusDetails": "Fish harvested successfully."
+  },
+  {
+    "productType": "NON_VEG",
+    "subCategory": "FISHERY",
+    "phase": "Exceptional",
+    "status": "WATER_CONTAMINATION",
+    "statusDetails": "Fish lost due to toxic water."
+  }
+]

@@ -1,0 +1,53 @@
+package com.farm.product.shared.utility;
+
+public enum FarmingStatusCode {
+    // ---------- FRUIT ----------
+    TREE_PLANTED,
+    BLOOMING,
+    FRUIT_SET,
+    FRUIT_DEVELOPMENT,
+    FRUIT_RIPENING,
+    FRUIT_READY_FOR_HARVEST,
+    FRUIT_HARVESTED,
+    SORTING_AND_GRADING,
+    SOLD_TO_COMPANY,
+    STORM_DAMAGE,
+
+    // ---------- VEGETABLE ----------
+    SEEDED,
+    GERMINATED,
+    VEGETATIVE_GROWTH,
+    FLOWERING,
+    FRUIT_FORMATION,
+    READY_FOR_HARVEST,
+    HARVESTED,
+    WASHING_AND_PACKING,
+    SOLD_IN_MARKET,
+    DROUGHT_DAMAGE,
+
+    // ---------- GRAIN ----------
+    TILLERING_STAGE,
+    GRAIN_FILLING,
+    DRYING_AND_CLEANING,
+    STORED_IN_SILO,
+    SOLD_TO_MILL,
+    LOCUST_ATTACK,
+
+    // ---------- NON_VEG - LIVESTOCK ----------
+    ANIMAL_PURCHASED,
+    BREEDING_STARTED,
+    GROWING_PHASE,
+    MILK_PRODUCTION,
+    DISEASE_OUTBREAK,
+
+    // ---------- NON_VEG - POULTRY ----------
+    CHICKS_HATCHED,
+    VACCINATED,
+    EGG_PRODUCTION,
+    ACCIDENTAL_DEATH,
+
+    // ---------- NON_VEG - FISHERY ----------
+    FISH_SEED_ADDED,
+    FISH_HARVESTED,
+    WATER_CONTAMINATION;
+}

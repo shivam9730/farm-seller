@@ -1,14 +1,14 @@
-package com.farm.product.shared.utility.RequestDto;
+package com.farm.product.farm_item.create.dto.RequestDto;
 
+import com.farm.product.shared.utility.CodeGroup;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
+import jakarta.validation.Valid;
 import jakarta.validation.constraints.Min;
-
 import jakarta.validation.constraints.NotNull;
-
 import lombok.Data;
-
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Data
 public class RegisterItemRequest {
@@ -17,17 +17,10 @@ public class RegisterItemRequest {
     @JsonProperty("seller_id")
     private Long sellerId;
 
-    @NotNull(message = "Seller ID is required")
-    @Min(value = 1, message = "Product ID must be positive")
+    @NotNull(message = "Product is required")
+    @Valid  // Add this to cascade validation
     @JsonProperty("product_id")
-    private Long productId;
-
-    // Product ID is auto-generated, so not included in DTO for creation
-
-   /* @NotBlank(message = "Product name is required")
-    @Size(max = 255, message = "Product name must not exceed 255 characters")
-    @JsonProperty("product_name")
-    private String productName;*/
+    private CodeGroup product;
 
     @NotNull(message = "Quantity is required")
     @Min(value = 0, message = "Quantity must be non-negative")
@@ -41,6 +34,10 @@ public class RegisterItemRequest {
     @NotNull(message = "Availability date is required")
     @JsonProperty("avability_on")
     private LocalDate availabilityOn;
+
+    @NotNull(message = "Created date is required")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    private LocalDateTime createdTimeStamp;
 
 }
 
